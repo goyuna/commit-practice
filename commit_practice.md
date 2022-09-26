@@ -8,14 +8,18 @@
 1. Git과 Github는 같다. (맞으면 O, 틀리면 X)
 
    - 답 : X
-   - 이유 : Git은 형상관리를 위한 프로그램이고, Github은 다른 사람들과 공유가 가능한 원격저장소이다.
+   - 이유 : 
+     - Git : 분산 버전 관리 **프로그램**
+     - Github : 버전 호스팅 웹 **서비스**
 
    
 
 2. 터미널 명령어 `cd .`은 현재 위치의 부모 폴더로 이동하라는 의미이다. (맞으면 O, 틀리면 X)
 
    - 답 : X
-   - 이유 : .은 현재 위치의 디렉토리를 나타낸다. cd .은 현재 디렉토리로 이동하라는 의미이다.
+   - 이유 : 
+     - `.` : 현재 폴더(현재 나의 경로)
+     - `..` : 상위 폴더(부모 폴더)
 
 
 
@@ -27,10 +31,10 @@
 
 4. Git의 3가지 공간에는 Working Directory, Staging Area, Commits이 있다. (맞으면 O, 틀리면 X)
    - 답 : X
-   - 이유 : Git의 3가지 공간에는 Working Directory, Staging Area, Repository가 있다.
+   - 이유 : Git의 3가지 공간에는 Working Directory, Staging Area, Repository(는 commits(변경사항)을 기록하는 공간)가 있다.
 
 
 
 5. Commit ID는 중복 가능하다. (맞으면 O, 틀리면 X)
    - 답 : X
-   - 이유 : Commit ID는 고유의 해시값을 통해 중복되지 않는 값을 가진다.
+   - 이유 : Commit ID는 각각의 커밋을 구분할 수 있는 아이디로, 중복되지 않아야 한다.
